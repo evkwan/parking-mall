@@ -3,3 +3,22 @@
 <h1> Welcome to ParkingMall! </h1>
 
 <h2>Find out when is the best time for you to visit a mall in KL!</h2>
+
+<table>
+    <%- # table header -%>
+    <tr>
+        <th>Mall</th>
+        <th>Available Bays</th> 
+    </tr>
+
+    <%- # rows -%>
+    <% @malls.each do |m| %>
+    <tr>
+        <td><%= m.name %></td>
+        <td> ??? </td>
+    </tr>
+    <% end %>  
+</table>
+
+
+
