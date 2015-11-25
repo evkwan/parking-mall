@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Seed should be based on your model.
-Mall.create(name: "Low Yat Plaza", 
+Mall.create(name: "Plaza Low Yat", 
             location: "Kuala Lumpur", 
             parking_bays_num: "1000", 
             description: "IT mall")
@@ -32,7 +32,7 @@ Mall.create(name: "Starhill Gallery",
             parking_bays_num: "1000[uekk6fc7a5c5]/home/evkwan/Web/rubyApps/parking-mall/app/controllers/malls_controller.rb", 
             description: "Hi-klad mall")
             
- Mall.create(name: "Pavillion", 
+ Mall.create(name: "Pavilion", 
             location: "Kuala Lumpur", 
             parking_bays_num: "1000", 
             description: "Hi-klad mall 2")

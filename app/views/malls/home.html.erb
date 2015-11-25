@@ -12,10 +12,10 @@
     </tr>
 
     <%- # rows -%>
-    <% @malls.each do |m| %>
+    <% @malls_parkings.each do |m,p| %>
     <tr>
-        <td><%= m.name %></td>
-        <td> ??? </td>
+        <td><%= m %></td>
+        <td><%= p %></td>
     </tr>
     <% end %>  
 </table>
