@@ -43,3 +43,6 @@ gem 'mechanize'
 
 # For scrping website
 gem 'nokogiri'
+
+# Bootstrap gem
+gem 'bootstrap-sass', '~> 3.2.0.0'
