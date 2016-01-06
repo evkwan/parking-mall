@@ -7,12 +7,16 @@ Rails.application.routes.draw do
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+  #   evkwan: here! the as: '<string>' will be used as <string>_path in the link_to helper!
+   get 'malls/:name' => 'malls#show', as: 'mall'
+   get 'malls'=> 'malls#home'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  resources :mall, param: :name
 
   # Example resource route with options:
   #   resources :products do

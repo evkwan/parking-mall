@@ -45,4 +45,15 @@ gem 'mechanize'
 gem 'nokogiri'
 
 # Bootstrap gem
-gem 'bootstrap-sass', '~> 3.2.0.0'
+#gem 'bootstrap-sass', '~> 3.2.0.0'
+
+# Additional gem for bootstrap use
+gem "therubyracer"
+
+gem "less-rails"
+
+# twitter bootstrap css & javascript toolkit
+gem 'twitter-bootswatch-rails', '~> 3.3.4'
+
+# twitter bootstrap helpers gem, e.g., alerts etc...
+gem 'twitter-bootswatch-rails-helpers'

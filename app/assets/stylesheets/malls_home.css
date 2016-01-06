@@ -1,0 +1,51 @@
+/*
+ * Malls Home page css
+ *= require_self
+ */
+ 
+#parking-mall-table {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bays {
+  text-align: center;
+  width: 40%;
+}
+
+.malls {
+  padding-left: 28px !important;
+  width: auto;
+}
+
+#malls-th {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#bays-th {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+th {
+  background-color: #009688;
+  border-bottom: 5px solid white !important;
+  color: white;
+  height: 50px;
+  padding-bottom: 12px !important;
+}
+
+td {
+  background-color: #B2DFDB;
+  border-bottom: 5px solid white;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    color: #bf6948;
+}
