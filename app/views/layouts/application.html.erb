@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   
@@ -25,14 +26,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">ParkingMall</a>
+                <a class="navbar-brand" href="/">ParkingMall</a>
             </div>
             <nav>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><%= link_to "Home", "#" %></li>
-                        <li><%= link_to "About", "#" %></li>
-                        <li><%= link_to "Contact", "#" %></li>
+                        <li><%= link_to "Home", "/" %></li>
+                        <li><%= link_to "About", "/static_pages/about" %></li>
+                        <li><%= link_to "Contact", "/static_pages/contact" %></li>
                     </ul>
                 </div>
             </nav>
@@ -44,4 +45,15 @@
     </div>
 
 </body>
+
+<footer class="hidden-md hidden-xs section text-center navbar navbar-fixed-bottom"> 
+  <div class="container"> 
+    <div class="row"> 
+      <div class="col-sm-6 col-md-12"> 
+        <h1></h1> 
+        <p class="text-center">Made for practice&nbsp;© evkwan 2016</p>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>

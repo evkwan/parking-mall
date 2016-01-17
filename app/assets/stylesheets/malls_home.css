@@ -1,10 +1,5 @@
-/*
- * Malls Home page css
- *= require_self
- */
- 
 #parking-mall-table {
-  width: 400px;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,11 +7,13 @@
 .bays {
   text-align: center;
   width: 40%;
+  font-size: 2em;
 }
 
 .malls {
   padding-left: 28px !important;
   width: auto;
+  font-size: 2em;
 }
 
 #malls-th {
@@ -34,7 +31,7 @@ th {
   border-bottom: 5px solid white !important;
   color: white;
   height: 50px;
-  padding-bottom: 12px !important;
+/*  padding-bottom: 12px !important;*/
 }
 
 td {
@@ -42,10 +39,20 @@ td {
   border-bottom: 5px solid white;
 }
 
-a:link {
+a.mall_link {
+    color: #303F9F;
+}
+
+a:link.mall_link {
     text-decoration: none !important;
 }
 
-a:visited {
-    color: #bf6948;
+a:visited.mall_link {
+    color: #db9406;
+    text-decoration: none !important;
+}
+
+a:hover.mall_link {
+    text-decoration: underline !important;
+    color:#bb4545 !important;
 }

@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="jumbotron text-center">
-                    <h1> Welcome to ParkingMall! </h1>
+                    <h1> Welcome to ParkingMall </h1>
                     </br>
                     <p>Check out the current parking availability of shopping malls in KL!</p>
                 </div>
@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <table class="table" id="parking-mall-table">
+                <table class="table" id="parking-mall-table" class="col-md-12">
                     <%- # table header -%>
                     <thead>
                         <tr>
@@ -35,7 +35,7 @@
                     <tbody>
                         <% @malls_parkings.each do |m,p| %>
                         <tr>
-                            <td class="malls"> <b><%= link_to m, mall_path(m)  %></b></td>
+                            <td class="malls"> <b><%= link_to m, mall_path(m), {:class => "mall_link"} %></b></td>
                             <td class="bays"><%= p %></td>
                         </tr>
                         <% end %>

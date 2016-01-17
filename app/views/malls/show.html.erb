@@ -1,4 +1,23 @@
 <title>ParkingMall | Show</title>
 
+<%= stylesheet_link_tag "malls_show", :media => "all" %>
+
 <br />
-<h1> The mall you chose was <%= @mall.name %> </h1>
+<div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="img_p">
+              <%= image_tag "malls/" + @mall.name.downcase.gsub(" ","_") + ".jpg", {:class => "img-responsive"} %>
+          </div>
+          <div class="col-md-6">
+            <h1><%= @mall.name %></h1>
+            <br>
+            <p class="text-justify"><%= @mall.description %></p>
+            <p>This mall has nearly <%= @mall.parking_bays_num %> parking bays.</p>
+            <br>
+            <p><b>Address:&nbsp;</b> <%= @mall.location %></p>
+            <p> <b>Opening hours:&nbsp;</b> <%= @mall.opening_time %> - <%= @mall.closing_time %></p>
+          </div>
+        </div>
+      </div>
+</div>
