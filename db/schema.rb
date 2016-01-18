@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160116165303) do
+ActiveRecord::Schema.define(version: 20160118182439) do
 
   create_table "malls", force: true do |t|
     t.string   "name"
     t.string   "location"
-    t.string   "description"
+    t.text     "description",      limit: 255
     t.integer  "parking_bays_num"
     t.datetime "created_at"
     t.datetime "updated_at"
