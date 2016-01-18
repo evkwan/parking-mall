@@ -9,7 +9,7 @@
 # Seed should be based on your model.
 Mall.create(name: "Plaza Low Yat", 
             location: "Kuala Lumpur", 
-            parking_bays_num: "901", 
+            parking_bays_num: "940", 
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Regarded as the IT Mall of Kuala Lumpur. Plaza Low Yat is a shopping mall which specializes in " +
@@ -20,7 +20,7 @@ Mall.create(name: "Plaza Low Yat",
             
 Mall.create(name: "Sungei Wang Plaza", 
             location: "Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "810", 
+            parking_bays_num: "820", 
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Sungei Wang Plaza is a shopping centre in the Bukit Bintang area of Kuala Lumpur. This mall is a " +
@@ -31,7 +31,7 @@ Mall.create(name: "Sungei Wang Plaza",
             
 Mall.create(name: "Lot 10", 
             location: "50, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "500",
+            parking_bays_num: "640",
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Also located in the vicinity of Bukit Bintang, Lot 10 is easy to spot with its trademark vivid green exterior. " + 
@@ -41,7 +41,7 @@ Mall.create(name: "Lot 10",
             
 Mall.create(name: "Fahrenheit88", 
             location: "179, Jalan Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "358", 
+            parking_bays_num: "480", 
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Fahrenheit 88, formerly KL Plaza, is a shopping mall located in the Bukit Bintang shopping district " +
@@ -51,7 +51,7 @@ Mall.create(name: "Fahrenheit88",
             
 Mall.create(name: "Starhill Gallery", 
             location: "181, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "1292", 
+            parking_bays_num: "1300", 
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Located opposite Pavillion, Starhill Gallery offer shoppers the ultimate luxary shopping experience with its " +
@@ -62,7 +62,7 @@ Mall.create(name: "Starhill Gallery",
             
  Mall.create(name: "Pavilion", 
             location: " Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "2276",
+            parking_bays_num: "2350",
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Being at the heart of Bukit Bintang, Pavilion is an unmistakable landmark in this area. With a Crystal Fountain decorated " +
@@ -73,7 +73,7 @@ Mall.create(name: "Starhill Gallery",
             
 Mall.create(name: "KLCC", 
             location: "241, Jalan P Ramlee, Kuala Lumpur City Centre, 50088 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur", 
-            parking_bays_num: "5496", 
+            parking_bays_num: "5500", 
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Right under the foot of the Petronas Twin Towers, lies the elegant six-storey Suria KLCC. Being one of the city's first" + 
