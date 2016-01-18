@@ -62,7 +62,7 @@ Mall.create(name: "Starhill Gallery",
             
  Mall.create(name: "Pavilion", 
             location: " Pavilion Kuala Lumpur, 168, Jalan Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur.", 
-            parking_bays_num: "2400",
+            parking_bays_num: "2450",
             opening_time: "10:00AM",
             closing_time: "10:00PM",
             description: "Being at the heart of Bukit Bintang, Pavilion is an unmistakable landmark in this area. With a Crystal Fountain decorated " +
