@@ -15,6 +15,17 @@ class MallsController < ApplicationController
 	def show
       @mall = Mall.find_by_name(params[:name])
 	end
+
+	#method to refresh the tables
+	def refresh_part
+	  puts "entered refresh!!"
+	  puts @malls.to_s
+	  @malls = Mall.order(:name)
+	  @malls_parkings = get_available_parking()	
+	  respond_to do |format|
+	  	format.js
+	  end
+	end
 	   
 	private
 	# method to scrap parking bays from the DBKL website

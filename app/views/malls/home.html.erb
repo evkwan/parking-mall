@@ -22,25 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <table class="table" id="parking-mall-table" class="col-md-12">
-                    <%- # table header -%>
-                    <thead>
-                        <tr>
-                            <th class="malls" id="malls-th">Mall</th>
-                            <th class="bays" id="bays-th">Available Bays</th> 
-                        </tr>
-                    </thead>
-
-                    <%- # rows -%>
-                    <tbody>
-                        <% @malls_parkings.each do |m,p| %>
-                        <tr>
-                            <td class="malls"> <b><%= link_to m, mall_path(m), {:class => "mall_link"} %></b></td>
-                            <td class="bays"><%= p %></td>
-                        </tr>
-                        <% end %>
-                    </tbody>
-                </table>
+                <%= render "malls_table" %>
             </div>
         </div>
     </div>

@@ -11,8 +11,10 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   #   evkwan: here! the as: '<string>' will be used as <string>_path in the link_to helper!
-   get 'malls/:name' => 'malls#show', as: 'mall'
-   get 'malls'=> 'malls#home'
+  get 'malls/refresh_part' => 'malls#refresh_part'
+  get 'malls/:name' => 'malls#show', as: 'mall'
+  get 'malls'=> 'malls#home'
+
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
