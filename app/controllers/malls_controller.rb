@@ -6,8 +6,7 @@ class MallsController < ApplicationController
 
 	def home
 	  # Generates the view that has been routed in routes.rb!
-	  # The view must exists in views/ though
-	
+	  # The view must exists in views/ though	
       @malls = Mall.order(:name)
       @malls_parkings = get_available_parking()
 	end
@@ -18,8 +17,6 @@ class MallsController < ApplicationController
 
 	#method to refresh the tables
 	def refresh_part
-	  puts "entered refresh!!"
-	  puts @malls.to_s
 	  @malls = Mall.order(:name)
 	  @malls_parkings = get_available_parking()	
 	  respond_to do |format|
